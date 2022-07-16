@@ -9,10 +9,6 @@
         "release": "rm -rf build && cross-env NODE_ENV=production1 && webpack --colors --config config/webpack.config.release.js",
         "mock": "cross-env NODE_ENV=mock babel-node server/server.mock.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git@git-v.megvii-inc.com:SmartRetail-fe/admin_class.git"
-    },
     "author": "sherry",
     "license": "MIT",
     "devDependencies": {
