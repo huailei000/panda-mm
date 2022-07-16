@@ -1,0 +1,33 @@
+.grounpBtn {
+  display: flex;
+  border: 1px solid #7F9FFF;
+  border-radius: 4px;
+  font-size: 14px;
+
+  .btn {
+    padding: 7px 19px;
+    color: #B1B8CD;
+    background:rgba(0,0,0,0);
+    box-sizing: border-box;
+
+    &.active {
+      border-radius: 4px;
+      // border:1px solid #7F9FFF;
+      border-right: 1px solid #7F9FFF;
+      border-left: 1px solid #7F9FFF;
+      background: #F3F6FF;
+      color: #7F9FFF;
+      box-sizing: border-box;
+
+      &:first-child {
+        border: none;
+        border-right: 1px solid #7F9FFF;
+      }
+
+      &:last-child {
+        border: none;
+        border-left: 1px solid #7F9FFF;
+      }
+    }
+  }
+}

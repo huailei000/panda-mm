@@ -1,0 +1,180 @@
+.classmateAttend{
+  width: 100%;
+  height: 86vh;
+  display: flex;
+  flex-direction: column;
+  &-header{
+    width: 100%;
+    height: 66px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .classSelect{
+      width: 200px;
+      margin-right: 10px;
+      // height: 34px;
+    }
+    .timetableSelect{
+      width: 290px;
+      margin-right: 10px;
+      // height: 34px;
+    }
+    .classTime{
+      // height: 28px;
+      margin-right: 10px;
+    }
+  }
+  &-container{
+    display: flex;
+    flex: 1;
+    .left {
+      width: 360px;
+      box-sizing: border-box;
+      padding: 0 44px 0 51px;
+      display: flex;
+      flex-direction: column;
+      .ech{
+        width: 100%;
+        height: 320px;
+        position: relative;
+        .pie{
+          width: 100%;
+          height: 100%;
+        }
+        .text{
+          width: 100%;
+          height: 20px;
+          display: flex;
+          justify-content: center;
+          position: absolute;
+          left:0;
+          bottom:0;
+          font-size: 14px;
+          .all{
+            color:#444444;
+          }
+          .shidao{
+            color: #7F9FFF;
+            margin:0 10px;
+          }
+          .weidao{
+            color: #FD7B7B;
+          }
+        }
+      }
+    }
+
+    .right {
+      flex: 1;
+      overflow: hidden;
+      .scrollCard {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 2px;
+        border:1px solid #7F9FFF;
+        border-radius: 5px;
+        overflow-y: scroll;
+        // display: flex;
+        // flex-wrap: wrap;
+        .card{
+          margin: 5px 0 0 5px;
+          &.warnings {
+            border: 1px solid #FD7B7B !important;
+
+            .infoTit {
+              color: #FD7B7B !important;
+            }
+
+            .tit {
+              color: #FD7B7B !important;
+            }
+          }
+        }
+        .alt {
+          width: 100%;
+          height: auto;
+          font-size: 14px;
+        }
+
+        .info {
+          margin-top: 5px;
+          display: flex;
+        }
+        .tit {
+          color: #B1B8CD;
+          margin-right: 5px;
+        }
+
+        .infoTit {
+          color: #666666;
+          overflow:hidden;
+          text-overflow:ellipsis;
+          white-space:nowrap;
+          flex:1;
+        }
+
+        .pri {
+          color: #7F9FFF;
+        }
+      }
+    .scrollCard-1::-webkit-scrollbar { /*滚动条整体样式*/
+      width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+      height: 1px;
+    }
+    .scrollCard-1::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 5px rgba(95, 135, 255, 0.08);
+      background: rgba(95, 135, 255, 0.08);
+    }
+    .scrollCard-1::-webkit-scrollbar-track { /*滚动条里面轨道*/
+      border-radius: 10rem;
+      -webkit-box-shadow: inset 0 0 5px rgba(95, 135, 255, 0.08);
+      background: white;
+    }
+    }
+
+    .classInfo {
+      width: 100%;
+      height: auto;
+
+      .avatar {
+        width: 120px;
+        height: 120px;
+        background: #F3F6FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+          color: #7F9FFF;
+          font-size: 16px;
+        }
+      }
+
+      .classesName {
+        font-size: 20px;
+        color: #666666;
+        margin: 20px 0;
+      }
+
+      .information {
+        font-size: 14px;
+        margin-bottom: 18px;
+        &.marg{
+          margin-bottom: 48px;
+        }
+        .tit {
+          color: #B1B8CD;
+          margin-right: 20px;
+          display: inline-block;
+          text-align: right;
+          min-width: 60px;
+        }
+        color: {
+          color: #666666;
+        }
+      }
+    }
+  }
+}

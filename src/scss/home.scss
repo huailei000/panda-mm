@@ -1,0 +1,39 @@
+.home {
+    margin-top: 70px;
+    font-weight: 600;
+    color: #444;
+    text-align: center;
+    .title {
+        width: 100%;
+        font-size: 48px;
+        line-height: 67px;
+    }
+    .time-day {
+        margin-top: 85px;
+        font-size: 24px;
+    }
+    .time-hour {
+        margin-top: 29px;
+        font-size: 36px;
+    }
+    .btn {
+        display: flex;
+        margin-top: 140px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+        line-height: 50px;
+        >div {
+            flex: 1;
+            width: 300px;
+            height: 126px;
+            margin: 0 120px;
+            line-height: 126px;
+            cursor: pointer;
+            font-size: 36px;
+            background: rgba(95, 135, 255, 1);
+        }
+        >div:hover {
+            background: #729fff;
+        }
+    }
+}

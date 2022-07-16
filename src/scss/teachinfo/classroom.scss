@@ -1,0 +1,34 @@
+.classroom{
+    &-header{
+        display: flex;
+        margin: .25rem 0;
+        line-height: .34rem;
+        .info{
+            flex: 1;
+        }
+        .operate-info{
+            display: flex;
+            .item{
+                margin: 0 .2rem;
+            }
+        }
+    }
+}
+
+.classroom-edit{
+    .form-item{
+        width: 50%;
+        display: inline-block;
+        line-height: .5rem;
+        .name{
+            width: 30%;
+            display: inline-block;
+            text-align: right;
+            margin-right: 0.2rem;
+        }
+        .value{
+            width: 60%;
+            display: inline-block;
+        }
+    }
+}

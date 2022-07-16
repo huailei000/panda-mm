@@ -1,0 +1,71 @@
+$class-prefix: "tabs";
+
+.ui-tabs{
+    width: 100%;
+    padding: 0;
+}
+
+.#{$class-prefix}{
+    &-bar{
+        text-align: center;
+        font-size: 0;
+    }
+
+    &-nav{
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-flow: row-reverse;
+    }
+
+    &-nav > &-tab{
+        list-style-type: none;
+        padding: 8px 80px;
+        position: relative;
+        text-decoration: none;
+        color: #666;
+        //flex: 1;
+        cursor: pointer;
+        margin-left: .1rem;
+        background-color: #F3F6FF;
+        .fa-caret-left,
+        .fa-caret-right{
+            position: absolute;
+            cursor: pointer;
+        }
+        .fa-caret-left{
+            left: 10px;
+        }
+        .fa-caret-right{
+            right: 10px;
+        }
+        &:hover{
+            color: #5797FB;
+        }
+    }
+
+    &-nav > &-active{
+        color: #5797FB;
+        background-color: #fff;
+        cursor: default;
+        border: .5px solid #5797FB;
+        border-bottom: 0;
+        margin-bottom: -1px;
+        &:hover{
+            color: #5797FB;
+        }
+    }
+
+    &-content{
+        border: 1px solid #7F9FFF;
+    }
+
+    &-content &-panel{
+        display: none;
+    }
+
+    &-content &-active{
+        display: block;
+    }
+}

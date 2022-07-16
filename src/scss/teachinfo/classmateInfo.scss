@@ -1,0 +1,186 @@
+.classmateInfo {
+    position: relative;
+    &-header {
+        display: flex;
+        margin: .25rem 0;
+        line-height: .34rem;
+        .info {
+            flex: 1;
+        }
+        .operate-info {
+            display: flex;
+            .item {
+                margin-left: .2rem;
+            }
+        }
+    }
+}
+
+.editMemberDiaklog {
+    height: 100%!important;
+    .page {
+        height: -1px;
+    }
+}
+
+.editMember {
+    width: 100%;
+    // height: 100%;
+    height: 82vh;
+    left: 0;
+    top: 0;
+    // position: fixed;
+    // background: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box;
+    // padding: 0 33px 0 53px;
+    z-index: 99999;
+    .back {
+        // font-size: 20px;
+        text-align: right;
+        color: #444444;
+        cursor: pointer;
+        font-weight: 600;
+        >i{
+            font-size: 20px;
+        }
+    }
+    .ishow {
+        display: none !important;
+    }
+    .editMemberContainer {
+        // width: 100%;
+        // height: calc(100% -50px);
+        flex: 1;
+        // margin-bottom: 36px;
+        display: flex;
+    }
+    .addMember {
+        flex: 4;
+        .title {
+            height: 64px;
+            line-height: 64px;
+        }
+    }
+    .allMember {
+        flex: 6;
+        margin-left: 20px;
+    }
+    .addMember,
+    .allMember {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .addArea {
+        flex: 1;
+        overflow-y: scroll;
+        // display: flex;
+        border: 1px solid #B1B8CD;
+        border-radius: 3px;
+        flex-wrap: wrap;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+    .addArea-1::-webkit-scrollbar { /*滚动条整体样式*/
+        width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+        height: 1px;
+    }
+    .addArea-1::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 5px rgba(95, 135, 255, 0.08);
+        background: rgba(95, 135, 255, 0.08);
+    }
+    .addArea-1::-webkit-scrollbar-track { /*滚动条里面轨道*/
+        border-radius: 10rem;
+        -webkit-box-shadow: inset 0 0 5px rgba(95, 135, 255, 0.08);
+        background: white;
+    }
+    .editArea {
+        flex: 1;
+        overflow: scroll;
+        border: 1px solid #B1B8CD;
+        border-radius: 3px;
+        padding-right: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        .scrollContainer {
+            flex: 1;
+            // display: flex;
+            // flex-wrap: wrap;
+        }
+    }
+    .editArea-1::-webkit-scrollbar { /*滚动条整体样式*/
+        width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+        height: 1px;
+    }
+    .editArea-1::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 5px rgba(95, 135, 255, 0.08);
+        background: rgba(95, 135, 255, 0.08);
+    }
+    .editArea-1::-webkit-scrollbar-track { /*滚动条里面轨道*/
+        border-radius: 10rem;
+        -webkit-box-shadow: inset 0 0 5px rgba(95, 135, 255, 0.08);
+        background: white;
+    }
+    .addStudent {
+        width: 33%;
+        height: 60px;
+        padding-left: 10px;
+        margin-top: 20px;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    .student {
+        width: 25%;
+        height: 60px;
+        padding-left: 10px;
+        margin-top: 20px;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    .memberSearch {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 64px;
+        >div {
+            display: flex;
+        }
+        .search {
+            width: 300px;
+        }
+        .item {
+            margin-left: 22px;
+        }
+    }
+}
+
+.classroom-edit {
+    .form-item {
+        width: 50%;
+        display: inline-block;
+        line-height: .5rem;
+        .name {
+            width: 30%;
+            display: inline-block;
+            text-align: right;
+            margin-right: 0.2rem;
+        }
+        .value {
+            width: 60%;
+            display: inline-block;
+        }
+        .classPel {
+            span {
+                margin-right: .23rem;
+                margin-left: .15rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,132 @@
+.b-timepicker {
+    width: 100%;
+    .timepicker-box {
+        background-color: #fff;
+        border: .5px solid #7F9FFF;
+        .quick-select{
+            display: flex;
+            margin: 12px auto;
+            justify-content: center;
+            .select-item{
+                width:80px;
+                cursor: pointer;
+                line-height: 14px;
+                color: #5F87FF;
+                border: .5px solid #7F9FFF;
+                border-right: none;
+                padding: 8px 0;
+                text-align: center;
+                &:hover{
+                    background-color: #F3F6FF;
+                }
+                &.active{
+                    background-color: #F3F6FF;
+                }
+            }
+            .select-item:last-child{
+                border-right: .5px solid #7F9FFF;
+            }
+        }
+    }
+    .timepicker-top {
+        width: 100%;
+        .top-content{
+            position: relative;
+            & > input {
+                color: #666666;
+                padding-left: 30px;
+            }
+        }
+        .fa-calendar{
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            color: #CBD0DE;
+        }
+        .fa-times-circle{
+            color: #B1B8CD;
+        }
+    }
+
+    .timepicker-content {
+        width: 2.7rem;
+        padding: .12rem;
+        color: #4b4949;
+        .content-item {
+            margin-bottom: 16px;
+        }
+        .quick-select .select-item {
+            padding: .08rem .1rem;
+            margin-right: .3rem;
+            border-radius: .04rem;
+            cursor: pointer;
+            &.not-allowed {
+                cursor: not-allowed;
+                &:hover {
+                    color: #162449;
+                    background-color: #FFFFFF;
+                }
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+            &:hover {
+                color: $theme-color;
+            }
+        }
+        .quick-select .active {
+            color: #fff;
+            background-color: $theme-color;
+            &:hover {
+                color: #fff;
+            }
+        }
+        .picker-input {
+            align-items: center;
+            border: .5px solid #ccc;
+            border-radius: .04rem;
+            padding: .08rem .1rem;
+            height: .14rem;
+            line-height: .14rem;
+        }
+    }
+
+    .calendar-wrap {
+        width: 2.7rem;
+        display: flex;
+        flex-direction: row;
+        .select-scope {
+            border-right: .5px solid $border-color;
+            .scope-item {
+                padding: .08rem .12rem;
+                &:hover {
+                    color: #fff;
+                    background-color: $hover-color;
+                }
+            }
+        }
+        .select-scope .active {
+            color: #fff;
+            background-color: $theme-color;
+        }
+        .DayPicker-Month {
+            margin-left: 0;
+        }
+    }
+
+    .timepicker-footer {
+        border-top: .5px solid $border-color;
+        padding: .14rem 0;
+        .xcomponent-btn {
+            margin-left: .16rem;
+        }
+    }
+}
+
+.xcomponent-toggle {
+    &.show {
+        .dropdown-select-icon {
+            transform: rotate(-90deg);
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.x-images {
+    display: flex;
+}
+
+.x-images-item {
+    width: .8rem;
+    height: .8rem;
+    margin-right: 10px;
+}
+
+.x-images-void {
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    margin-right: 10px;
+    img {
+        width: .8rem;
+        height: .8rem;
+    }
+}

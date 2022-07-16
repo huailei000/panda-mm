@@ -1,0 +1,135 @@
+.b-sheet {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .2rem;
+    border: 1px solid #7f9fff;
+    .b-sheet-row {
+        display: flex;
+        flex: 1;
+    }
+    .b-sheet-empty,
+    .b-sheet-week,
+    .b-sheet-course,
+    .b-sheet-normal,
+    .b-sheet-void-add,
+    .b-sheet-void {
+        flex: 1;
+        height: .7rem;
+        margin-bottom: .06rem;
+        margin-right: .1rem;
+        text-align: center;
+        font-size: .16rem;
+        color: #b1b8cd;
+        &-val {
+            display: inline-block;
+            width: 100%;
+            height: .32rem;
+            line-height: .32rem;
+        }
+        &-site {
+            display: inline-block;
+            width: 100%;
+            height: .38rem;
+            line-height: .38rem;
+            font-size: .14rem;
+        }
+    }
+    .b-sheet-normal.red {
+        .b-sheet-normal-val {
+            background: #FEDBDB;
+        }
+        .b-sheet-normal-site {
+            background: #FFF1F1;
+        }
+        color: #FEB0B0;
+    }
+    .b-sheet-normal.notSave {
+        .b-sheet-normal-val {
+            background: #CBD0DE;
+            color: #fff;
+        }
+        .b-sheet-normal-site {
+            background: #F3F6FF;
+        }
+        color: #B1B8CD;
+    }
+    .b-sheet-empty {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .b-sheet-week {
+        line-height: .7rem;
+    }
+    .b-sheet-normal {
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        &-val {
+            display: block;
+            overflow: hidden;
+            background: #e9eefc;
+        }
+        &-site {
+            display: block;
+            overflow: hidden;
+            background: #f3f6ff;
+        }
+        &-layer {
+            width: 100%;
+            top: 0;
+            position: absolute;
+            opacity: 0;
+            text-align: left;
+            color: #fff;
+            .num {
+                display: block;
+                line-height: .32rem;
+                padding-left: .1rem;
+                background: #7f9fff;
+            }
+            .teach {
+                display: block;
+                line-height: .38rem;
+                padding-left: .1rem;
+                background: #7f9fff;
+            }
+            .icon-circle {
+                width: 14px;
+                height: 14px;
+                color: #fe9e9e;
+                position: absolute;
+                top: .26rem;
+                right: .05rem;
+            }
+        }
+        &-layer:hover {
+            opacity: .6;
+        }
+    }
+    .b-sheet-void,
+    .b-sheet-void-add {
+        cursor: pointer;
+        background: #f3f6ff;
+        line-height: .7rem;
+        font-size: .14rem;
+    }
+    .b-sheet-void.isSave {
+        background: #fff;
+        color: #B1B8CD;
+    }
+    .b-sheet-void-add:hover {
+        cursor: pointer;
+        height: .68rem;
+        line-height: .68rem;
+        margin-right: .08rem;
+        color: #7f9fff;
+        border: 1px solid #5f87ff;
+    }
+    .b-sheet-line {
+        width: 100%;
+        height: .06rem;
+        margin-bottom: .06rem;
+        background: #f9fafb;
+    }
+}

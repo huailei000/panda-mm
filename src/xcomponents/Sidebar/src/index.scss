@@ -1,0 +1,171 @@
+@import '../../../scss/color.scss';
+.xcomponent-sidebar {
+    width: 100%;
+    height: 85vh;
+    overflow-x: auto;
+    font-weight: 600;
+    color: $theme-deep-font;
+    .menu-item,
+    .tree-header {
+        color: $theme-deep-font;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        >span,
+        .name {
+            font-size: 16px;
+            color: $theme-deep-font;
+        }
+        &:hover {
+            color: $theme-font;
+            .name {
+                color: $theme-font;
+            }
+            .dropdown-menu-icon {
+                color: #a4a4a4;
+            }
+        }
+        &.active {
+            background: $theme-active;
+            color: $theme-font;
+            border-left: .1rem solid $theme-font;
+            padding-left: .87rem;
+            .name {
+                color: $theme-font;
+            }
+            .icon-left {
+                color: $theme-font;
+            }
+        }
+        &.active:hover {
+            .name {
+                color: $theme-font;
+            }
+            .icon-left {
+                color: $theme-font;
+            }
+        }
+        .icon-left {
+            width: .2rem;
+            position: absolute;
+            left: .18rem;
+            font-size: .18rem;
+            color: #A4A4A4;
+        }
+        .dropdown-menu-icon {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            font-size: .22rem;
+            margin-top: -12px;
+            transition: all .3s;
+        }
+    }
+    .menu-item {
+        .name {
+            font-size: 16px;
+            color: $theme-deep-font;
+        }
+    }
+    .tree-header {
+        position: relative;
+        margin-top: .12rem;
+        padding: .09rem .2rem .09rem .57rem;
+        .active,
+        &>span:hover {
+            color: $theme-font;
+        }
+    }
+    .pull-right {
+        width: auto;
+        position: absolute;
+        left: 2.23rem;
+        transition: transform .5s ease;
+    }
+    .fa-angle-up {
+        color: $theme-font;
+    }
+    .treeview.menu-open {
+        .pull-right {
+            transition: transform .5s ease;
+        }
+        .dropdown-menu-icon {
+            display: inline-block;
+            transform: rotate(90deg);
+        }
+    }
+    .treeview-menu {
+        height: 0;
+        transition: height .5s;
+        padding-left: 0;
+        overflow: hidden;
+        .menu-item {
+            margin: .12rem 0;
+            padding: .09rem 0 .09rem .97rem;
+            &.active {
+                padding-left: .87rem;
+            }
+        }
+    }
+    .menu-only {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        position: relative;
+        margin: .12rem 0;
+        padding: .09rem .2rem .09rem .57rem;
+        .name {
+            font-size: 16px;
+            color: $theme-deep-font;
+        }
+        &:hover {
+            .name {
+                color: $theme-font;
+            }
+        }
+        &.active {
+            padding-left: .47rem;
+            background: $theme-active;
+            color: $theme-font;
+            border-left: .1rem solid $theme-font;
+            .name {
+                color: $theme-font;
+            }
+            .icon-left {
+                color: $theme-font;
+            }
+        }
+        &.active:hover {
+            .name {
+                color: $theme-font;
+            }
+        }
+        .icon-left {
+            color: $theme-deep-font;
+            width: .27rem;
+            display: inline-block;
+            position: absolute;
+            left: .18rem;
+            font-size: .18rem;
+            color: #A4A4A4;
+        }
+    }
+    &::-webkit-scrollbar {
+        /*滚动条整体样式*/
+        width: 10px;
+        /*高宽分别对应横竖滚动条的尺寸*/
+        height: 1px;
+    }
+    &::-webkit-scrollbar-thumb {
+        /*滚动条里面小方块*/
+        width: 10px;
+        height: 319px;
+        background: rgba(95, 135, 255, 0.1);
+        border-radius: 7px;
+    }
+    &::-webkit-scrollbar-track {
+        position: fixed;
+        background: rgba(95, 135, 255, 0);
+        border-radius: 7px;
+    }
+}

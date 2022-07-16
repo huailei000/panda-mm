@@ -1,0 +1,48 @@
+.term{
+  &-header{
+      display: flex;
+      margin: .25rem 0;
+      line-height: .34rem;
+      .info{
+          flex: 1;
+      }
+      .operate-info{
+          .item{
+              margin-left: .2rem;
+          }
+      }
+  }
+}
+
+.term-dialog{
+  .dialog-body{
+    display: inline-block;
+    margin-bottom: 0.19rem;
+    &:nth-child(2n-1) {
+      margin-right: 0.3rem;
+    }
+    &:nth-child(3) {
+      .dialog-body-title {
+        margin-right: 0.11rem;
+      }
+    }
+    &:nth-child(4) {
+      .dialog-body-title {
+        margin-right: 0.118rem;
+      }
+    }
+    .dialog-body-title {
+      display: inline-block;
+      margin-right: 0.1rem;
+      width: 0.68rem;
+      font-size: 0.14rem;
+      text-align: right;
+    }
+    .dialog-body-con {
+      display: inline-block;
+    }
+    .dialog-body-time {
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+    "code": 0,
+    "data": {
+        "attention_list": [
+            {
+                "num": 100,
+                "value": "14:00"
+            },
+            {
+                "num": 100,
+                "value": "17:00"
+            },
+            {
+                "num": 100,
+                "value": "20:00"
+            }
+        ],
+        "behavior_desc": {
+            "20": "正常",
+            "21": "趴桌子",
+            "22": "站立",
+            "23": "举手",
+            "24": "玩手机",
+            "25": "阅读",
+            "26": "书写",
+            "80": "-"
+        },
+        "behavior_list": [
+            {
+                "desc": "正常",
+                "num": 384,
+                "value": 20
+            },
+            {
+                "desc": "趴桌子",
+                "num": 364,
+                "value": 21
+            },
+            {
+                "desc": "站立",
+                "num": 364,
+                "value": 22
+            },
+            {
+                "desc": "举手",
+                "num": 407,
+                "value": 23
+            },
+            {
+                "desc": "玩手机",
+                "num": 377,
+                "value": 24
+            },
+            {
+                "desc": "阅读",
+                "num": 367,
+                "value": 25
+            },
+            {
+                "desc": "书写",
+                "num": 737,
+                "value": 26
+            }
+        ],
+        "classroom": {
+            "company_id": 1,
+            "create_time": 1540871545,
+            "id": 2,
+            "location": "223",
+            "name": "221",
+            "size": 30
+        },
+        "cls": {
+            "begin_time": 1539100800,
+            "code": "0",
+            "company_id": 1,
+            "create_time": 1540871562,
+            "department": "de2",
+            "grade": null,
+            "id": 2,
+            "major": "major2",
+            "name": "name2",
+            "num": 4,
+            "program": "program2",
+            "teacher": {
+                "avatar": "",
+                "birthday": null,
+                "certificate_number": "",
+                "certificate_type": 1,
+                "come_from": "",
+                "company_id": 1,
+                "create_time": 1540871909,
+                "department": "",
+                "description": "",
+                "email": "",
+                "end_time": null,
+                "entry_date": null,
+                "gender": 0,
+                "id": 5,
+                "interviewee": "",
+                "interviewee_pinyin": "",
+                "job_number": "23323",
+                "major": "",
+                "name": "老师2",
+                "password_reseted": false,
+                "phone": "",
+                "photos": [
+                    {
+                        "company_id": 1,
+                        "id": 5,
+                        "quality": 0.997425,
+                        "subject_id": 5,
+                        "url": "/static/upload/photo/2018-10-30/v2_3f6de8d20d3c4cd22659e09b15f714d599d63e66.jpg",
+                        "version": 7
+                    }
+                ],
+                "pinyin": "laoshi2",
+                "purpose": 0,
+                "remark": "",
+                "start_time": null,
+                "subject_type": 1,
+                "title": "",
+                "visit_notify": false
+            },
+            "teacher_id": 5
+        },
+        "course": {
+            "code": "sds",
+            "company_id": 1,
+            "create_time": 1540802294,
+            "department": "de",
+            "id": 1,
+            "major": "de1",
+            "name": "de2"
+        },
+        "emotion_desc": {
+            "81": "高兴",
+            "82": "中性",
+            "83": "难过",
+            "84": "困惑",
+            "85": "害怕",
+            "86": "惊讶",
+            "87": "愤怒",
+            "88": "厌恶",
+            "140": "-"
+        },
+        "emotion_list": {
+            "81": {
+                "desc": "高兴",
+                "num": 365,
+                "value": 81
+            },
+            "82": {
+                "desc": "中性",
+                "num": 365,
+                "value": 82
+            },
+            "83": {
+                "desc": "难过",
+                "num": 382,
+                "value": 83
+            },
+            "84": {
+                "desc": "困惑",
+                "num": 382,
+                "value": 84
+            },
+            "85": {
+                "desc": "害怕",
+                "num": 376,
+                "value": 85
+            },
+            "86": {
+                "desc": "惊讶",
+                "num": 365,
+                "value": 86
+            },
+            "87": {
+                "desc": "愤怒",
+                "num": 408,
+                "value": 87
+            },
+            "88": {
+                "desc": "厌恶",
+                "num": 357,
+                "value": 88
+            }
+        },
+        "lesson_index": {
+            "company_id": 1,
+            "end_hour": 23,
+            "end_min": 0,
+            "id": 2,
+            "num": 2,
+            "start_hour": 14,
+            "start_min": 0,
+            "term_id": 1
+        },
+        "term": {
+            "company_id": 1,
+            "create_time": 1540801526,
+            "end_time": 1546185600,
+            "id": 1,
+            "start_time": 1541001600,
+            "term": "dde",
+            "term_year": "xxx",
+            "update_time": 1545116637
+        }
+    },
+    "page": {}
+}

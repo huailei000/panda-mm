@@ -1,0 +1,31 @@
+{
+  "code": 0,
+  "data": {
+    "list": [
+      {
+        "code": "x33421",
+        "company_id": 1,
+        "create_time": 1546414337,
+        "department": "临床系",
+        "id": 2,
+        "major": "解剖学",
+        "name": "输液"
+      },
+      {
+        "code": "10",
+        "company_id": 1,
+        "create_time": 1546053963,
+        "department": "锻造系",
+        "id": 1,
+        "major": "冶铁锻造",
+        "name": "打铁"
+      }
+    ]
+  },
+  "page": {
+    "count": 2,
+    "current": 1,
+    "size": 10,
+    "total": 1
+  }
+}

@@ -1,0 +1,56 @@
+.RecognitionHistory{
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  .head{
+    width:100%;
+    height: 34px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+  }
+  .container{
+    flex: 1;
+    // border: 1px solid #7F9FFF;
+    // padding: 0 42px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    // overflow-y: scroll;
+    .card{
+      margin: 5px 0 0 5px;
+      // flex:1,
+    }
+    .pages{
+      height: 40px;
+      width: 100%;
+    }
+    .scrollCard{
+      flex:1;
+      // display: flex;
+      flex-wrap: wrap;
+    }
+    .alt{
+      width: 100%;
+      height: auto;
+      font-size: 14px;
+    }
+    .info{
+      margin-top: 5px;
+    }
+    .tit{
+      color: #B1B8CD;
+      margin-right: 5px;
+    }
+    .infoTit{
+      color: #666666;
+    }
+    .pri{
+      color:#7F9FFF;
+    }
+    .wraning{
+      color: #FD7B7B;
+    }
+  }
+}

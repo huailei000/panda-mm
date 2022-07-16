@@ -1,0 +1,49 @@
+.screen{
+  &-header{
+      display: flex;
+      margin: .25rem 0;
+      line-height: .34rem;
+      .info{
+          flex: 1;
+      }
+      .operate-info{
+          display: flex;
+          .operate-info-first {
+            margin-right: 0.2rem;
+          }
+          .selector-wrapper {
+            margin-right: .2rem;
+          }
+          .item{
+              margin-left: .2rem;
+          }
+      }
+  }
+}
+
+.screen-edit{
+  .form-item{
+      width: 50%;
+      display: inline-block;
+      line-height: .5rem;
+      .name{
+          width: 35%;
+          display: inline-block;
+          text-align: right;
+          margin-right: 0.2rem;
+      }
+      .value{
+          width: 55%;
+          display: inline-block;
+      }
+      .value-alone {
+          width: 55%;
+          display: inline-block;
+          padding-left: 0.1rem;
+          border-radius: .04rem;
+          line-height: 0.33rem;
+          box-sizing: border-box;
+          border: 1px solid #7F9FFFFF;
+      }
+  }
+}

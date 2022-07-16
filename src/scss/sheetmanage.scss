@@ -1,0 +1,190 @@
+.sheetmanage {
+    &-header {
+        display: flex;
+        margin-top: .25rem;
+        line-height: .34rem;
+        .dimension-list {
+            flex: 1;
+            display: flex;
+            >li {
+                position: relative;
+                width: 33%;
+                height: 54px;
+                margin-right: 10px;
+                background: rgba(243, 246, 255, 1);
+                line-height: 54px;
+                cursor: pointer;
+                text-align: center;
+                color: #7f9fff;
+                >span {
+                    display: inline-block;
+                    width: 70%;
+                }
+                .up-icon {
+                    transform: rotate(-180deg);
+                }
+                .xcomponent-toggle {
+                    width: 100%;
+                    position: absolute;
+                    left: 0;
+                }
+                .xcomponent-toggle-box {
+                    width: 100%;
+                    background: rgba(249, 250, 255, 1);
+                    box-shadow: 0px 1px 2px 0px rgba(177, 184, 205, 1);
+                    border-radius: 4px;
+                    border: 1px solid rgba(127, 159, 255, 1);
+                    .x-search-input-box {
+                        margin: .1rem;
+                    }
+                    .x-input {
+                        background: rgba(255, 255, 255, 1);
+                        border-radius: 4px;
+                        border: 1px solid rgba(95, 135, 255, 1);
+                    }
+                }
+                .icon-toggle {
+                    margin-left: 80%;
+                }
+                .search-content {
+                    height: 2.5rem;
+                    overflow-y: auto;
+                    cursor: pointer;
+                    color: #666;
+                    .teacher-name {
+                        display: block;
+                        height: .34rem;
+                        line-height: .34rem;
+                        padding-left: .06rem;
+                    }
+                    .teacher-name:hover {
+                        color: #7f9fff;
+                    }
+                    .search-teach {
+                        padding-left: 0;
+                        border-left: 6px solid #7f9fff;
+                        background: #fff;
+                        color: #7f9fff;
+                    }
+                }
+            }
+            .active {
+                background: #fff;
+                border: 1px solid #7f9fff;
+                margin-bottom: -1px;
+                border-bottom: none;
+            }
+            .display-none {
+                display: none;
+            }
+        }
+        .term-list {
+            .xcomponent-toggle {
+                width: 150px;
+            }
+            .info {
+                flex: .3;
+                line-height: .54rem;
+                margin-right: .15rem;
+                color: #666;
+            }
+            .icon-toggle {
+                margin-right: .1rem;
+            }
+            .up-icon {
+                transform: rotate(-180deg);
+            }
+            .xcomponent-toggle-box {
+                width: 100%;
+                background: rgba(249, 250, 255, 1);
+                box-shadow: 0px 1px 2px 0px rgba(177, 184, 205, 1);
+                padding-left: .05rem;
+                padding-right: .05rem;
+                margin-top: -1px;
+                .search-content {
+                    height: 1.5rem;
+                    overflow-y: auto;
+                    cursor: pointer;
+                    .active {
+                        color: #7f9fff;
+                    }
+                    div:hover {
+                        color: #7f9fff;
+                    }
+                }
+            }
+        }
+        .operate-info {
+            display: flex;
+            .item {
+                height: .32rem;
+                margin: 0 .2rem;
+                border: 1px solid #6c8cff;
+                color: #6c8cff;
+            }
+            .item:hover {
+                background: #6c8cff;
+                color: #fff;
+            }
+        }
+        .operate-edit {
+            display: flex;
+            .item {
+                height: .32rem;
+            }
+            .item:first-child {
+                margin: 0 .2rem;
+                border: 1px solid #6c8cff;
+                color: #6c8cff;
+            }
+            // .item:last-child {
+            //     border: 1px solid #000;
+            //     color: #000;
+            // }
+            .item:first-child:hover {
+                background: #6c8cff;
+                color: #fff;
+            }
+            // .item:last-child:hover {
+            //     background: #000;
+            //     color: #fff;
+            // }
+        }
+    }
+}
+
+.sheetmanage-edit {
+    .form-item {
+        width: 50%;
+        display: inline-block;
+        line-height: .5rem;
+        .name {
+            width: 30%;
+            display: inline-block;
+            text-align: right;
+            margin-right: 0.2rem;
+        }
+        .value {
+            width: 60%;
+            display: inline-block;
+        }
+    }
+}
+
+.sheetmanage-tips {
+    .form-item {
+        width: 100%;
+        display: block;
+        line-height: .5rem;
+        .name {
+            width: 30%;
+            display: inline-block;
+            text-align: right;
+            margin-right: 0.2rem;
+        }
+        .value {
+            width: 60%;
+            display: inline-block;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+/**
+ * name: 
+ * desc:
+ * date: 2018/11/22
+ * author: kelvin
+ */
+.not-found-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    img {
+        width: 234px;
+        height: 82px;
+        margin: 0 auto;
+    }
+    span {
+        text-align: center;
+        margin-top: 20px;
+    }
+}

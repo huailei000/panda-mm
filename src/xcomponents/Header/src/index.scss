@@ -1,0 +1,34 @@
+@import '../../../scss/color.scss';
+.main-header {
+    color: $theme-deep-font;
+    .navbar {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        padding: .38rem 3.14rem 0 .46rem;
+        height: 100%;
+        background-color: #fff;
+        .title {
+            flex: 1;
+            font-size: .2rem;
+            font-weight: 600;
+            color: #444;
+        }
+        .tool-list {
+            display: flex;
+            font-size: 14px;
+            .user-info {
+                display: flex;
+                margin-right: .34rem;
+                .photo {
+                    vertical-align: top;
+                    margin-right: .1rem;
+                }
+            }
+            .logout {
+                cursor: pointer;
+                color: #5886FF;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@import '../../../scss/color.scss';
+
+.xcomponent-box {
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: .30rem;
+    //border-radius: 4px;
+    border: .5px solid #E2E6F3;
+    box-shadow:0px 2px 4px 2px rgba(0,66,124,0.1);
+    border-radius:10px;
+    .xcomponent-box-title{
+        border-bottom: 1px solid #E8E8E8;
+        padding: .1rem .2rem;
+    }
+    .xcomponent-box-content{
+        padding: .2rem;
+    }
+}
+
+.xcomponent-box-primary{
+    border-top: 3px solid $theme-primary;
+}
+
+.xcomponent-box-info{
+    border-top: 3px solid $theme-info;
+}
+
+.xcomponent-box-success{
+    border-top: 3px solid $theme-success;
+}
+
+.xcomponent-box-warning{
+    border-top: 3px solid $theme-warning;
+}
+
+.xcomponent-box-danger{
+    border-top: 3px solid $theme-danger;
+}

@@ -1,0 +1,178 @@
+.x-tree {
+    ul {
+        position: relative;
+        overflow: hidden;
+        & > li {
+            padding-left: 20px;
+        }
+    }
+
+    & > .tree-root {
+        & > li {
+            & > div:after {
+                display: none;
+            }
+            &:first-child {
+                & > div {
+                    line-height: 60px;
+                    position: relative;
+                    left: -14px;
+                    overflow: hidden;
+                    .node-content {
+                        &:before {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .noleaf-node {
+        & > div {
+            .node-content {
+                line-height: 30px;
+                font-size: 14px;
+                color: #4B4949;
+                border: 1px solid transparent;
+                border-radius: 100%;
+                cursor: pointer;
+                transition: all 0.4s;
+                position: relative;
+                & > i {
+                    margin-right: 6px;
+                    margin-left: 12px;
+                    color: #A4A4A4;
+                }
+                &:hover {
+                    color: #7297FF;
+                    & > i {
+                        color: #7297FF;
+                    }
+                }
+
+                &:before {
+                    content: '';
+                    width: 0;
+                    height: 0;
+                    border-width: 4px 0px 4px 6px;
+                    border-color: transparent transparent transparent #D8D8D8;
+                    border-style: solid;
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -4px;
+                    transition: all .3s;
+                }
+            }
+        }
+
+        &.expend {
+            & > .noleaf-title {
+                .node-content {
+                    &:before {
+                        transform: rotate(90deg);
+                    }
+                    color: #7297FF;
+                    & > i {
+                        color: #7297FF;
+                    }
+                }
+            }
+        }
+    }
+
+    .leaf-node {
+        margin-bottom: 5px;
+        position: relative;
+        & > div {
+            position: relative;
+            &:before {
+                content: '';
+                width: 10px;
+                height: 10px;
+                border: 1px solid #D8D8D8;
+                border-radius: 100%;
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                transform: translate(0, -50%);
+                transition: all .3s;
+            }
+            .node-content {
+                padding: 5px;
+                display: inline-block;
+                transition: all 0.5s;
+                cursor: pointer;
+                position: relative;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                margin-left: 15px;
+                & > i {
+                    margin-right: 6px;
+                    color: #A4A4A4;
+                    transition: all 0.5s;
+                }
+            }
+        }
+
+        &:hover {
+            .node-content {
+                background-color: #7297FF;
+                color: #FFFFFF;
+                border-radius: 4px;
+                & > i {
+                    color: #FFFFFF;
+                }
+            }
+
+            .leaf-title {
+                &:before {
+                    border-color: #7297FF;
+                }
+                &:after {
+                    content: '';
+                    width: 8px;
+                    height: 8px;
+                    background-color: #7297FF;
+                    border-radius: 100%;
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    left: 2px;
+                    transform: translate(0, -50%);
+                    transition: all .3s;
+                }
+            }
+        }
+
+        &.selected {
+            .node-content {
+                background-color: #7297FF;
+                color: #FFFFFF;
+                border-radius: 4px;
+                & > i {
+                    color: #FFFFFF;
+                }
+            }
+            .leaf-title {
+                &:before {
+                    border-color: #7297FF;
+                }
+                &:after {
+                    content: '';
+                    width: 8px;
+                    height: 8px;
+                    background-color: #7297FF;
+                    border-radius: 100%;
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    left: 2px;
+                    transform: translate(0, -50%);
+                    transition: all .3s;
+                }
+            }
+        }
+    }
+}

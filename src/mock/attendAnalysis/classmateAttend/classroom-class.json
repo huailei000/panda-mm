@@ -1,0 +1,99 @@
+{
+  "code": 0,
+  "data": {
+    "list": [
+      {
+        "classroom": {
+          "company_id": 1,
+          "create_time": 1546487997,
+          "id": 3,
+          "location": "勤学楼",
+          "name": "103",
+          "size": 50
+        },
+        "cls": {
+          "begin_time": 1535731200,
+          "code": "1",
+          "company_id": 1,
+          "create_time": 1546487773,
+          "department": "计算机系",
+          "grade": "一年级",
+          "id": 12,
+          "major": "计算机专业",
+          "name": "Java1班",
+          "num": 35,
+          "program": "4",
+          "teacher_id": 1,
+          "students": [],
+          "teacher": [
+            {
+              "certificate_type": 0,
+              "company_id": 1,
+              "create_time": 1546487989,
+              "gender": 0,
+              "id": 1,
+              "job_number": "0",
+              "name": "叶老师",
+              "subject_type": 1
+            }
+          ]
+        },
+        "course_teacher": {
+          "company_id": 1,
+          "gender": 0,
+          "id": 12,
+          "job_number": "11",
+          "name": "黄老师",
+          "subject_type": 1
+        },
+        "lesson_index": {
+          "company_id": 1,
+          "end_hour": 14,
+          "end_min": 30,
+          "id": 4,
+          "num": 2,
+          "start_hour": 14,
+          "start_min": 5,
+          "term": {
+            "company_id": 1,
+            "create_time": 1546487998,
+            "end_time": 1567267200,
+            "id": 1,
+            "start_time": 1535731200,
+            "term": "上学期",
+            "term_year": "2019"
+          }
+        },
+        "lesson_index_id": 3,
+        "list": [
+          {
+            "attendance_date": "2019-01-04",
+            "attendance_status": 0,
+            "course_id": 12,
+            "course_name": "Python",
+            "event_time": 0,
+            "id": 106,
+            "lesson_index_id": 3,
+            "photo": "https://imgessl.kugou.com/uploadpic/softhead/240/20180515/20180515002522714.jpg",
+            "subject_job_number": "0",
+            "subject_name": "王钢蛋"
+          },
+          {
+            "attendance_date": "2019-01-04",
+            "attendance_status": 0,
+            "course_id": 12,
+            "course_name": "Python",
+            "event_time": 0,
+            "id": 107,
+            "lesson_index_id": 3,
+            "photo": "https://imgessl.kugou.com/uploadpic/softhead/240/20161209/20161209164303152140.jpg",
+            "subject_job_number": "1",
+            "subject_name": "李铁锤"
+          }
+        ],
+        "students_num": 35
+      }
+    ]
+  },
+  "page": {}
+}

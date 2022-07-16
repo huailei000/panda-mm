@@ -1,0 +1,210 @@
+.personalAttend {
+    &-header {
+        display: flex;
+        margin: .25rem 0;
+        line-height: .34rem;
+        .info {
+            flex: 1;
+        }
+        .operate-info {
+            display: flex;
+            .item-1 {
+                width: 300px;
+                margin-right: 0.2rem;
+            }
+            .item {
+                // margin: 0 .2rem;
+                width: 300px;
+            }
+        }
+    }
+    .photo {
+        width: 100px;
+        height: 100px;
+        background: red;
+    }
+}
+
+.teacher-edit {
+    .form-images {
+        display: flex;
+        width: 100%;
+        line-height: .9rem;
+        .name {
+            width: 15%;
+            display: inline-block;
+            text-align: right;
+            margin-right: 0.24rem;
+        }
+        .value {
+            width: 60%;
+            display: inline-block;
+        }
+        .x-image {
+            border-radius: 5px;
+            border: 1px solid #7f9fff;
+        }
+    }
+    .form-item {
+        width: 50%;
+        display: inline-block;
+        line-height: .5rem;
+        .name {
+            width: 30%;
+            display: inline-block;
+            text-align: right;
+            margin-right: 0.24rem;
+        }
+        .value {
+            width: 60%;
+            display: inline-block;
+        }
+        .selector-wrapper .drop-main-selector .drop-list li {
+            height: 16px;
+            line-height: 16px;
+        }
+    }
+}
+
+.attend-card {
+    text-align: center;
+    .top-content {
+        padding: 9px;
+        background-color: #E9EEFC;
+    }
+    .bottom-content {
+        color: #B1B8CD;
+        padding: 7px;
+        background-color: #F3F6FF;
+    }
+}
+
+.personal-attend-scan {
+    .scan-basic {
+        display: flex;
+        // height: 960px;
+        .left-info {
+            width: 3rem;
+            height: 100%;
+            color: #666;
+            .item {
+                margin-bottom: .18rem;
+                >.red{
+                    font-size: 36px;
+                    color: #FE9E9E;
+                    margin:0 5px;
+                }
+                >.green {
+                    font-size: 36px;
+                    color: #06ea59;
+                    margin: 0 5px;
+                }
+            }
+            .item.bottom30 {
+                margin-bottom: .2.5rem;
+            }
+            .item.bottom40 {
+                margin-bottom: .2.5rem;
+            }
+            .item.bottom50 {
+                margin-bottom: .3rem;
+            }
+            .item.temp {
+                display: flex;
+                align-items: center;
+                >span{
+                    color: #B1B8CD;
+                    display: inline-block;
+                    width: 56px;
+                }
+                .b-sheet {
+                    border: 0;
+                    margin: 0 0 0 .2rem;
+                }
+                .b-sheet-normal {
+                    width: 1.5rem;
+                }
+            }
+            .name {
+                font-size: 18px;
+            }
+            .title {
+                margin-right: .1rem;
+                color: #B1B8CD;
+            }
+        }
+        .right-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            .tab-wrapper{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                .tabs-content{
+                    flex:1;
+                    .seeTab{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        .term-list {
+            position: absolute;
+            width: 200px;
+            height: 36px;
+            .xcomponent-toggle-top {
+                display: flex;
+                line-height: 36px;
+                padding: 0 10px;
+                // border: 1px solid #eee;
+                .info {
+                    flex: 1;
+                    display: inline-block;
+                    width: 160px;
+                    display: flex;
+                }
+                .fa {
+                    margin-top: 11px;
+                    margin-bottom: 11px;
+                }
+            }
+            .up-icon {
+                transform: rotate(-180deg);
+            }
+            .xcomponent-toggle-box {
+                width: 100%;
+                background: rgba(249, 250, 255, 1);
+                box-shadow: 0px 1px 2px 0px rgba(177, 184, 205, 1);
+                .search-content {
+                    cursor: pointer;
+                    height: 1.5rem;
+                    overflow-y: auto;
+                    &>div {
+                        width: 90%;
+                        padding: 0 5%;
+                        line-height: 36px;
+                    }
+                    &>div:hover {
+                        color: #7f9fff;
+                    }
+                    .active,
+                    .active:hover {
+                        color: #fff;
+                        background: #7f9fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//按月查看
+.personal-attend-month,
+.personal-attend-week {
+    .b-sheet {
+        border: 0;
+        padding-left: 0.1rem;
+    }
+}

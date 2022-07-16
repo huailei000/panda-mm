@@ -1,0 +1,310 @@
+{
+  "code": 0,
+  "data": {
+    "attendance": 2,
+    "cls": {
+      "department": "计算机系",
+      "id": 11,
+      "major": "计算机专业",
+      "name": "Java2班",
+      "program": "4"
+    },
+    "list": [
+      {
+        "attendance": 2,
+        "date": "2019-01-03",
+        "list": [
+          {
+            "attendance": {
+              "attendance_date": "2019-01-03",
+              "attendance_status": 1,
+              "course_id": 11,
+              "course_name": "计算机与科学",
+              "event_time": 1546488492,
+              "id": 1,
+              "lesson_index_id": 1,
+              "photo": "/static/upload/event/2019-01-03/v2_271a59e36f1886c96a1991c7dade14fabf4d8ff7.jpg",
+              "subject_job_number": "25",
+              "subject_name": "覃朗"
+            },
+            "lesson_index": {
+              "company_id": 1,
+              "end_hour": 12,
+              "end_min": 28,
+              "id": 1,
+              "num": 1,
+              "start_hour": 12,
+              "start_min": 8,
+              "term_id": 1,
+              "term": {
+                "company_id": 1,
+                "create_time": 1546487998,
+                "end_time": 1567267200,
+                "id": 1,
+                "start_time": 1535731200,
+                "term": "上学期",
+                "term_year": "2019"
+              },
+              "term_id": 0
+            },
+            "lesson_index_id": 1,
+            "teacher": {
+              "certificate_number": null,
+              "certificate_type": 0,
+              "company_id": 0,
+              "create_time": 0,
+              "gender": 0,
+              "id": 0,
+              "job_number": null,
+              "name": null,
+              "photos": [],
+              "subject_type": 0
+            }
+          },
+          {
+            "attendance": {
+              "attendance_date": "2019-01-03",
+              "attendance_status": 1,
+              "course_id": 12,
+              "course_name": "Python",
+              "event_time": 1546488503,
+              "id": 9,
+              "lesson_index_id": 1,
+              "photo": "/static/upload/event/2019-01-03/v2_271a59e36f1886c96a1991c7dade14fabf4d8ff7.jpg",
+              "subject_job_number": "25",
+              "subject_name": "覃朗"
+            },
+            "lesson_index": {
+              "company_id": 1,
+              "end_hour": 12,
+              "end_min": 28,
+              "id": 1,
+              "num": 1,
+              "start_hour": 12,
+              "start_min": 8,
+              "term_id": 1,
+              "term": {
+                "company_id": 1,
+                "create_time": 1546487998,
+                "end_time": 1567267200,
+                "id": 1,
+                "start_time": 1535731200,
+                "term": "上学期",
+                "term_year": "2019"
+              },
+              "term_id": 0
+            },
+            "lesson_index_id": 1,
+            "teacher": {
+              "certificate_number": null,
+              "certificate_type": 0,
+              "company_id": 0,
+              "create_time": 0,
+              "gender": 0,
+              "id": 0,
+              "job_number": null,
+              "name": null,
+              "photos": [],
+              "subject_type": 0
+            }
+          },
+          {
+            "attendance": {
+              "attendance_date": "2019-01-03",
+              "attendance_status": 1,
+              "course_id": 12,
+              "course_name": "水产养殖",
+              "event_time": 1546488503,
+              "id": 96,
+              "lesson_index_id": 1,
+              "photo": "/static/upload/event/2019-01-03/v2_271a59e36f1886c96a1991c7dade14fabf4d8ff7.jpg",
+              "subject_job_number": "25",
+              "subject_name": "覃朗"
+            },
+            "lesson_index": {
+              "company_id": 1,
+              "end_hour": 12,
+              "end_min": 28,
+              "id": 1,
+              "num": 1,
+              "start_hour": 12,
+              "start_min": 8,
+              "term_id": 1,
+              "term": {
+                "company_id": 1,
+                "create_time": 1546487998,
+                "end_time": 1567267200,
+                "id": 1,
+                "start_time": 1535731200,
+                "term": "上学期",
+                "term_year": "2019"
+              },
+              "term_id": 0
+            },
+            "lesson_index_id": 1,
+            "teacher": {
+              "certificate_number": null,
+              "certificate_type": 0,
+              "company_id": 0,
+              "create_time": 0,
+              "gender": 0,
+              "id": 0,
+              "job_number": null,
+              "name": null,
+              "photos": [],
+              "subject_type": 0
+            }
+          }
+        ]
+      },
+      {
+        "attendance": 0,
+        "date": "2019-01-04",
+        "list": [
+          {
+            "attendance": {
+              "attendance_date": "2019-01-03",
+              "attendance_status": 1,
+              "course_id": 11,
+              "course_name": "计算机与科学",
+              "event_time": 1546488492,
+              "id": 1,
+              "lesson_index_id": 1,
+              "photo": "/static/upload/event/2019-01-03/v2_271a59e36f1886c96a1991c7dade14fabf4d8ff7.jpg",
+              "subject_job_number": "25",
+              "subject_name": "覃朗"
+            },
+            "lesson_index": {
+              "company_id": 1,
+              "end_hour": 12,
+              "end_min": 28,
+              "id": 1,
+              "num": 1,
+              "start_hour": 12,
+              "start_min": 8,
+              "term_id": 1,
+              "term": {
+                "company_id": 1,
+                "create_time": 1546487998,
+                "end_time": 1567267200,
+                "id": 1,
+                "start_time": 1535731200,
+                "term": "上学期",
+                "term_year": "2019"
+              },
+              "term_id": 0
+            },
+            "lesson_index_id": 1,
+            "teacher": {
+              "certificate_number": null,
+              "certificate_type": 0,
+              "company_id": 0,
+              "create_time": 0,
+              "gender": 0,
+              "id": 0,
+              "job_number": null,
+              "name": null,
+              "photos": [],
+              "subject_type": 0
+            }
+          },
+          {
+            "attendance": {
+              "attendance_date": "2019-01-03",
+              "attendance_status": 1,
+              "course_id": 12,
+              "course_name": "Python",
+              "event_time": 1546488503,
+              "id": 9,
+              "lesson_index_id": 1,
+              "photo": "/static/upload/event/2019-01-03/v2_271a59e36f1886c96a1991c7dade14fabf4d8ff7.jpg",
+              "subject_job_number": "25",
+              "subject_name": "覃朗"
+            },
+            "lesson_index": {
+              "company_id": 1,
+              "end_hour": 12,
+              "end_min": 28,
+              "id": 1,
+              "num": 1,
+              "start_hour": 12,
+              "start_min": 8,
+              "term_id": 1,
+              "term": {
+                "company_id": 1,
+                "create_time": 1546487998,
+                "end_time": 1567267200,
+                "id": 1,
+                "start_time": 1535731200,
+                "term": "上学期",
+                "term_year": "2019"
+              },
+              "term_id": 0
+            },
+            "lesson_index_id": 1,
+            "teacher": {
+              "certificate_number": null,
+              "certificate_type": 0,
+              "company_id": 0,
+              "create_time": 0,
+              "gender": 0,
+              "id": 0,
+              "job_number": null,
+              "name": null,
+              "photos": [],
+              "subject_type": 0
+            }
+          },
+          {
+            "attendance": {
+              "attendance_date": "2019-01-03",
+              "attendance_status": 1,
+              "course_id": 12,
+              "course_name": "水产养殖",
+              "event_time": 1546488503,
+              "id": 96,
+              "lesson_index_id": 1,
+              "photo": "/static/upload/event/2019-01-03/v2_271a59e36f1886c96a1991c7dade14fabf4d8ff7.jpg",
+              "subject_job_number": "25",
+              "subject_name": "覃朗"
+            },
+            "lesson_index": {
+              "company_id": 1,
+              "end_hour": 12,
+              "end_min": 28,
+              "id": 1,
+              "num": 1,
+              "start_hour": 12,
+              "start_min": 8,
+              "term_id": 1,
+              "term": {
+                "company_id": 1,
+                "create_time": 1546487998,
+                "end_time": 1567267200,
+                "id": 1,
+                "start_time": 1535731200,
+                "term": "上学期",
+                "term_year": "2019"
+              },
+              "term_id": 0
+            },
+            "lesson_index_id": 1,
+            "teacher": {
+              "certificate_number": null,
+              "certificate_type": 0,
+              "company_id": 0,
+              "create_time": 0,
+              "gender": 0,
+              "id": 0,
+              "job_number": null,
+              "name": null,
+              "photos": [],
+              "subject_type": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "page": {}
+}

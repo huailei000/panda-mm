@@ -1,0 +1,141 @@
+{
+  "code": 0,
+  "data": {
+    "list": [
+      {
+        "classroom": {
+          "company_id": 1,
+          "create_time": 1546487997,
+          "id": 3,
+          "location": "勤学楼",
+          "name": "103",
+          "size": 50
+        },
+        "cls": {
+          "begin_time": 1535731200,
+          "code": "1",
+          "company_id": 1,
+          "create_time": 1546487773,
+          "department": "计算机系",
+          "grade": "一年级",
+          "id": 12,
+          "major": "计算机专业",
+          "name": "Java1班",
+          "num": 35,
+          "program": "4",
+          "teacher_id": 1
+        },
+        "company_id": 1,
+        "course": {
+          "code": "12",
+          "company_id": 1,
+          "create_time": 1546487998,
+          "department": "计算机系",
+          "id": 12,
+          "major": "计算机专业",
+          "name": "Python"
+        },
+        "create_time": 1546581767,
+        "id": 5,
+        "lesson_index": {
+          "company_id": 1,
+          "end_hour": 14,
+          "end_min": 30,
+          "id": 4,
+          "num": 2,
+          "start_hour": 14,
+          "start_min": 5
+        },
+        "teacher": {
+          "company_id": 1,
+          "gender": 0,
+          "id": 12,
+          "job_number": "11",
+          "name": "黄老师",
+          "remark": "",
+          "subject_type": 1
+        },
+        "term": {
+          "company_id": 1,
+          "create_time": 1546487998,
+          "end_time": 1567267200,
+          "id": 1,
+          "start_time": 1535731200,
+          "term": "上学期",
+          "term_year": "2019"
+        },
+        "weekday": 4
+      },
+      {
+        "classroom": {
+          "company_id": 1,
+          "create_time": 1546487997,
+          "id": 3,
+          "location": "勤学楼",
+          "name": "103",
+          "size": 50
+        },
+        "cls": {
+          "begin_time": 1535731200,
+          "code": "1",
+          "company_id": 1,
+          "create_time": 1546487773,
+          "department": "计算机系",
+          "grade": "一年级",
+          "id": 12,
+          "major": "计算机专业",
+          "name": "Java1班",
+          "num": 35,
+          "program": "4",
+          "teacher_id": 1
+        },
+        "company_id": 1,
+        "course": {
+          "code": "12",
+          "company_id": 1,
+          "create_time": 1546487998,
+          "department": "计算机系",
+          "id": 12,
+          "major": "计算机专业",
+          "name": "水产养殖"
+        },
+        "create_time": 1546581767,
+        "id": 5,
+        "lesson_index": {
+          "company_id": 1,
+          "end_hour": 14,
+          "end_min": 30,
+          "id": 4,
+          "num": 2,
+          "start_hour": 14,
+          "start_min": 5
+        },
+        "teacher": {
+          "company_id": 1,
+          "gender": 0,
+          "id": 12,
+          "job_number": "11",
+          "name": "黄老师",
+          "remark": "",
+          "subject_type": 1
+        },
+        "term": {
+          "company_id": 1,
+          "create_time": 1546487998,
+          "end_time": 1567267200,
+          "id": 1,
+          "start_time": 1535731200,
+          "term": "上学期",
+          "term_year": "2019"
+        },
+        "weekday": 4
+      }
+    ]
+  },
+  "page": {
+    "count": 1,
+    "current": 1,
+    "size": 10,
+    "total": 1
+  }
+}

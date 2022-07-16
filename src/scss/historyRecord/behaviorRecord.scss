@@ -1,0 +1,63 @@
+.behaviorRecord {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .head {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+    .searchBtn{
+      margin-left: 10px;
+    }
+  }
+
+  .container {
+    flex: 1;
+    border: 1px solid #7F9FFF;
+    padding: 0 42px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+    .card {
+      margin: 5px 0 5px 0;
+      flex: 1,
+    }
+
+    .scrollCard {
+      flex: 1;
+      overflow-y: scroll;
+    }
+
+    .alt {
+      width: 100%;
+      height: auto;
+      font-size: 14px;
+    }
+
+    .info {
+      margin-top: 5px;
+    }
+
+    .tit {
+      color: #B1B8CD;
+      margin-right: 5px;
+    }
+
+    .infoTit {
+      color: #666666;
+    }
+
+    .pri {
+      color: #7F9FFF;
+    }
+
+    .wraning {
+      color: #FD7B7B;
+    }
+  }
+}

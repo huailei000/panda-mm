@@ -1,0 +1,22 @@
+/**
+ * name: 
+ * desc:
+ * date: 2018/11/21
+ * author: kelvin
+ */
+.no-auth {
+    & > div {
+        height: 600px;
+        & > div {
+            height: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            i {
+                font-size: 60px;
+                color: #D1D1D1;
+            }
+        }
+    }
+}

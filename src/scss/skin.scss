@@ -1,0 +1,56 @@
+@import './color.scss';
+.panda-header {
+    position: fixed;
+    width: 100%;
+    background: green;
+    top: 0;
+    z-index: 10000;
+}
+
+.panda-sidebar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 2.8rem;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(95, 135, 255, 0.08);
+    z-index: 10000;
+    .panda-logo {
+        margin: 0 .15rem;
+        padding: .32rem .5rem;
+        border-bottom: 2px solid #5f87ff;
+        span {
+            display: inline-block;
+            width: 1.5rem;
+            height: .34rem;
+            background: url('../assets/logo-white.png') no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+}
+
+.panda-body {
+    margin-left: 2.8rem;
+}
+
+.panda-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-top: .67rem;
+    padding: 0 .34rem 0 .46rem;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.required{
+    color: red;
+    margin-right: 2px;
+}

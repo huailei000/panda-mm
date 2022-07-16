@@ -1,0 +1,48 @@
+.x-input {
+    display: block;
+    width: 100%;
+    padding: .1rem;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border: 1px solid #C6C8D1;
+    border-radius: 0.04rem;
+    box-sizing: border-box;
+    transition: all .3s;
+    color: #767676;
+    outline: none;
+    cursor: pointer;
+    &::-webkit-input-placeholder {
+        color: #B7BDD0;
+    }
+    &.disabled {
+        background-color: #F5F5F5;
+        cursor: not-allowed;
+        &:hover {
+            border-color: #C0CCDA;
+        }
+    }
+    &:hover {
+        border-color: #7297ff;
+    }
+    &:focus {
+        border-color: #7297ff;
+    }
+    &-sm {
+        height: 0.28rem;
+    }
+    &-sm + .rayricon {
+        line-height: .28rem;
+    }
+    &-md {
+        height: 0.34rem;
+    }
+    &-md + .rayricon {
+        line-height: .34rem;
+    }
+    &-lg {
+        height: 0.36rem;
+    }
+    &-lg + .rayricon {
+        line-height: .36rem;
+    }
+}

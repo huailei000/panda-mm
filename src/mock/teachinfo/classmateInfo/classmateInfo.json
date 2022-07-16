@@ -1,0 +1,142 @@
+{
+  "code": 0,
+  "data": {
+    "list": [
+      {
+        "begin_time": 1547049600,
+        "code": "004",
+        "company_id": 1,
+        "create_time": 1545982267,
+        "department": "书法系",
+        "grade": "八年级",
+        "id": 2,
+        "major": "语文",
+        "name": "书法六班",
+        "num": 1,
+        "pinyin": "shufaliuban",
+        "program": "4",
+        "teacher_id": 3,
+        "students": [
+          {
+            "certificate_number": "43242235524",
+            "certificate_type": 2,
+            "company_id": 1,
+            "create_time": 1546411647,
+            "gender": 2,
+            "id": 2,
+            "job_number": "32423556",
+            "major": "化学",
+            "name": "王钢蛋",
+            "photos": [
+              {
+                "company_id": 1,
+                "id": 4,
+                "origin_url": null,
+                "quality": 0.996677,
+                "subject_id": 2,
+                "url": "https://imgessl.kugou.com/uploadpic/softhead/240/20180515/20180515002522714.jpg",
+                "version": 7
+              }
+            ],
+            "start_time": 1546272000,
+            "subject_type": 0
+          }
+        ],
+        "teacher": [
+          {
+            "certificate_number": "3425666232",
+            "certificate_type": 1,
+            "company_id": 1,
+            "create_time": 1546412923,
+            "gender": 1,
+            "id": 3,
+            "job_number": "xd34554",
+            "name": "端木老师",
+            "photos": [
+              {
+                "company_id": 1,
+                "id": 5,
+                "origin_url": null,
+                "quality": 0.998386,
+                "subject_id": 3,
+                "url": "https://imgessl.kugou.com/uploadpic/softhead/240/20180529/20180529183842601.jpg",
+                "version": 7
+              }
+            ],
+            "subject_type": 1
+          }
+        ]
+      },
+      {
+        "begin_time": 1514822400,
+        "code": "04578",
+        "company_id": 1,
+        "create_time": 1545982267,
+        "department": "电焊系",
+        "grade": "九年级",
+        "id": 1,
+        "major": "电焊计算机",
+        "name": "计算机五班",
+        "num": 1,
+        "program": "5",
+        "teacher_id": 4,
+        "students": [
+          {
+            "certificate_number": "2132133434",
+            "certificate_type": 1,
+            "company_id": 1,
+            "create_time": 1546411625,
+            "gender": 1,
+            "id": 1,
+            "job_number": "122323",
+            "major": "打铁",
+            "name": "李铁锤",
+            "photos": [
+              {
+                "company_id": 1,
+                "id": 4,
+                "origin_url": null,
+                "quality": 0.996677,
+                "subject_id": 2,
+                "url": "https://imgessl.kugou.com/uploadpic/softhead/240/20161209/20161209164303152140.jpg",
+                "version": 7
+              }
+            ],
+            "start_time": 1514908800,
+            "subject_type": 0
+          }
+        ],
+        "teacher": [
+          {
+            "certificate_number": "2431455511",
+            "certificate_type": 2,
+            "company_id": 1,
+            "create_time": 1546412923,
+            "gender": 2,
+            "id": 4,
+            "job_number": "vx34325",
+            "name": "王老师",
+            "photos": [
+              {
+                "company_id": 1,
+                "id": 5,
+                "origin_url": null,
+                "quality": 0.998386,
+                "subject_id": 3,
+                "url": "https://imgessl.kugou.com/uploadpic/softhead/240/20161209/20161209164303152140.jpg",
+                "version": 7
+              }
+            ],
+            "subject_type": 1
+          }
+        ]
+      }
+    ]
+  },
+  "page": {
+    "count": 2,
+    "current": 1,
+    "size": 10,
+    "total": 1
+  }
+}

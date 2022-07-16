@@ -1,0 +1,63 @@
+//颜色
+// 10.31 根据ui图设置整体颜色变量
+// 涉及皮肤替换
+$theme-all-color: #fff;
+$theme-deep-font: #444; // 侧边栏文字颜色
+$theme-content: #f7faff; // 内容区域颜色
+$theme-font: #608cff; // 侧边栏active
+$theme-active: #fff; // 侧边栏active
+//这里是写变量的地方不要乱写样式
+$theme-color: #7297ff;
+$border-color: #E3E6F0;
+$hover-color: #6C8CFF;
+$error-color: #FE4B4B;
+$warn-color: #FF7A33;
+$correct-color: #63CC3D;
+$text-color: #515666;
+//input/btn色值
+$input-border-color: #B7BDD0;
+$theme-yellow: #F39E12;
+$theme-light-blue: #00c0ef;
+$theme-blue: #3c8dbc;
+$theme-deep-blue: #367fa9;
+$theme-green: #00ca6d;
+// $theme-deep-font: #333;
+$theme-border: #e3e3e3;
+$theme-primary-active: #357ca5;
+$theme-primary: #3c8dbc;
+$theme-primary-disabled: rgba(60, 141, 188, .65);
+$theme-info-active: #00a7d0;
+$theme-info: #00c0ef;
+$theme-info-disabled: rgba(0, 192, 239, .65);
+$theme-success-active: #008d4c;
+$theme-success: #00a65a;
+$theme-success-disabled: rgba(0, 166, 90, .65);
+$theme-warning-active: #db8b0b;
+$theme-warning: #f39c12;
+$theme-warning-disabled: rgba(243, 156, 18, .65);
+$theme-danger-active: #d33724;
+$theme-danger: #dd4b39;
+$theme-danger-disabled: rgba(221, 75, 57, .65);
+$theme-gray-active: #b5bbc8;
+$theme-gray: #d2d6de;
+$theme-gray-disabled: rgba(210, 214, 222, .65);
+//深蓝
+$theme-navy-active: #001a35;
+$theme-navy: #001f3f;
+$theme-navy-disabled: rgba(0, 31, 63, .65);
+$theme-teal-active: #30bbbb;
+$theme-teal: #39cccc;
+$theme-teal-disabled: rgba(57, 204, 204, .65);
+$theme-purple-active: #555299;
+$theme-purple: #605ca8;
+$theme-purple-disabled: rgba(96, 92, 168, .65);
+$theme-orange-active: #ff7701;
+$theme-orange: #ff851b;
+$theme-orange-disabled: rgba(255, 133, 27, .65);
+//褐红色
+$theme-maroon-active: #ca195a;
+$theme-maroon: #d81b60;
+$theme-maroon-disabled: rgba(216, 27, 96, .65);
+$theme-black-active: #000;
+$theme-black: #111;
+$theme-black-disabled: rgba(17, 17, 17, .65);

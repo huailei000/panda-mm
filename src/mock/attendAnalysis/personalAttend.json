@@ -1,0 +1,77 @@
+{
+  "code": 0,
+  "data": {
+    "list": [
+      {
+        "attendance": {
+          "attendance_count": 39,
+          "attendance_ratio": 0.722,
+          "nonattendance_count": 15
+        },
+        "student": {
+          "avatar": "",
+          "company_id": 1,
+          "department": "",
+          "description": "",
+          "gender": 2,
+          "id": 2,
+          "job_number": "32423556",
+          "name": "王钢蛋",
+          "password_reseted": false,
+          "phone": "",
+          "subject_type": 0,
+          "title": "",
+          "photos": [
+            {
+              "company_id": 1,
+              "id": 4,
+              "origin_url": null,
+              "quality": 0.996677,
+              "subject_id": 2,
+              "url": "https://imgessl.kugou.com/uploadpic/softhead/240/20180515/20180515002522714.jpg",
+              "version": 7
+            }
+          ]
+        }
+      },
+      {
+        "attendance": {
+          "attendance_count": 0,
+          "attendance_ratio": 0,
+          "nonattendance_count": 0
+        },
+        "student": {
+          "avatar": "",
+          "company_id": 1,
+          "department": "",
+          "description": "",
+          "gender": 2,
+          "id": 2,
+          "job_number": "122323",
+          "name": "李铁锤",
+          "password_reseted": false,
+          "phone": "",
+          "subject_type": 0,
+          "title": "",
+          "photos": [
+            {
+              "company_id": 1,
+              "id": 4,
+              "origin_url": null,
+              "quality": 0.996677,
+              "subject_id": 2,
+              "url": "https://imgessl.kugou.com/uploadpic/softhead/240/20161209/20161209164303152140.jpg",
+              "version": 7
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "page": {
+    "count": 2,
+    "current": 1,
+    "size": 10,
+    "total": 1
+  }
+}

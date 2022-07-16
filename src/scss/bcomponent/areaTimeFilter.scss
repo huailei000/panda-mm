@@ -1,0 +1,18 @@
+/**
+ * name:
+ * desc:
+ * date: 2018/8/23
+ * author: kelvin
+ */
+ .distribution-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .area-filter{
+        .filter-name{
+            width: 90px;
+            display: inline-block;
+            white-space: nowrap;
+        }
+    }
+}

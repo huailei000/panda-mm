@@ -1,0 +1,339 @@
+{
+    "code": 0,
+    "data": {
+        "attention_list": [
+            {
+                "num": 100,
+                "value": "14:00"
+            },
+            {
+                "num": 100,
+                "value": "17:00"
+            },
+            {
+                "num": 100,
+                "value": "18:00"
+            },
+            {
+                "num": 100,
+                "value": "20:00"
+            }
+        ],
+        "behavior_desc": {
+            "20": "正常",
+            "21": "趴桌子",
+            "22": "站立",
+            "23": "举手",
+            "24": "玩手机",
+            "25": "阅读",
+            "26": "书写",
+            "80": "-"
+        },
+        "behavior_list": {
+            "20": [
+                {
+                    "num": 126,
+                    "value": "14:00"
+                },
+                {
+                    "num": 126,
+                    "value": "17:00"
+                },
+                {
+                    "num": 132,
+                    "value": "20:00"
+                }
+            ],
+            "21": [
+                {
+                    "num": 111,
+                    "value": "14:00"
+                },
+                {
+                    "num": 126,
+                    "value": "17:00"
+                },
+                {
+                    "num": 127,
+                    "value": "20:00"
+                }
+            ],
+            "22": [
+                {
+                    "num": 117,
+                    "value": "14:00"
+                },
+                {
+                    "num": 132,
+                    "value": "17:00"
+                },
+                {
+                    "num": 115,
+                    "value": "20:00"
+                }
+            ],
+            "23": [
+                {
+                    "num": 145,
+                    "value": "14:00"
+                },
+                {
+                    "num": 130,
+                    "value": "17:00"
+                },
+                {
+                    "num": 132,
+                    "value": "20:00"
+                }
+            ],
+            "24": [
+                {
+                    "num": 139,
+                    "value": "14:00"
+                },
+                {
+                    "num": 122,
+                    "value": "17:00"
+                },
+                {
+                    "num": 116,
+                    "value": "20:00"
+                }
+            ],
+            "25": [
+                {
+                    "num": 122,
+                    "value": "14:00"
+                },
+                {
+                    "num": 130,
+                    "value": "17:00"
+                },
+                {
+                    "num": 115,
+                    "value": "20:00"
+                }
+            ],
+            "26": [
+                {
+                    "num": 240,
+                    "value": "14:00"
+                },
+                {
+                    "num": 234,
+                    "value": "17:00"
+                },
+                {
+                    "num": 263,
+                    "value": "20:00"
+                }
+            ]
+        },
+        "classroom": {
+            "company_id": 1,
+            "create_time": 1540871545,
+            "id": 2,
+            "location": "勤学楼",
+            "name": "221",
+            "size": 30
+        },
+        "cls": {
+            "begin_time": 1539100800,
+            "code": "0",
+            "company_id": 1,
+            "create_time": 1540871562,
+            "department": "计算机系",
+            "grade": null,
+            "id": 2,
+            "major": "计算机专业",
+            "name": "Java1班",
+            "num": 35,
+            "program": "4",
+            "teacher": {
+                "avatar": "",
+                "birthday": null,
+                "certificate_number": "",
+                "certificate_type": 1,
+                "come_from": "",
+                "company_id": 1,
+                "create_time": 1540871909,
+                "end_time": null,
+                "entry_date": null,
+                "gender": 0,
+                "id": 5,
+                "interviewee": "",
+                "interviewee_pinyin": "",
+                "job_number": "23323",
+                "major": "",
+                "name": "叶老师",
+                "password_reseted": false,
+                "photos": [
+                    {
+                        "url": "/static/upload/photo/2018-10-30/v2_3f6de8d20d3c4cd22659e09b15f714d599d63e66.jpg",
+                        "version": 7
+                    }
+                ],
+                "purpose": 0,
+                "start_time": null,
+                "subject_type": 1,
+                "visit_notify": false
+            },
+            "teacher_id": 5
+        },
+        "course": {
+            "code": "12",
+            "company_id": 1,
+            "create_time": 1546487998,
+            "department": "计算机系",
+            "id": 12,
+            "major": "计算机专业",
+            "name": "水产养殖"
+        },
+        "emotion_desc": {
+            "81": "高兴",
+            "82": "中性",
+            "83": "难过",
+            "84": "困惑",
+            "85": "害怕",
+            "86": "惊讶",
+            "87": "愤怒",
+            "88": "厌恶",
+            "140": "-"
+        },
+        "emotion_list": {
+            "81": [
+                {
+                    "num": 127,
+                    "value": "14:00"
+                },
+                {
+                    "num": 130,
+                    "value": "17:00"
+                },
+                {
+                    "num": 108,
+                    "value": "20:00"
+                }
+            ],
+            "82": [
+                {
+                    "num": 106,
+                    "value": "14:00"
+                },
+                {
+                    "num": 131,
+                    "value": "17:00"
+                },
+                {
+                    "num": 128,
+                    "value": "20:00"
+                }
+            ],
+            "83": [
+                {
+                    "num": 133,
+                    "value": "14:00"
+                },
+                {
+                    "num": 130,
+                    "value": "17:00"
+                },
+                {
+                    "num": 119,
+                    "value": "20:00"
+                }
+            ],
+            "84": [
+                {
+                    "num": 144,
+                    "value": "14:00"
+                },
+                {
+                    "num": 108,
+                    "value": "17:00"
+                },
+                {
+                    "num": 130,
+                    "value": "20:00"
+                }
+            ],
+            "85": [
+                {
+                    "num": 119,
+                    "value": "14:00"
+                },
+                {
+                    "num": 129,
+                    "value": "17:00"
+                },
+                {
+                    "num": 128,
+                    "value": "20:00"
+                }
+            ],
+            "86": [
+                {
+                    "num": 115,
+                    "value": "14:00"
+                },
+                {
+                    "num": 120,
+                    "value": "17:00"
+                },
+                {
+                    "num": 130,
+                    "value": "20:00"
+                }
+            ],
+            "87": [
+                {
+                    "num": 139,
+                    "value": "14:00"
+                },
+                {
+                    "num": 127,
+                    "value": "17:00"
+                },
+                {
+                    "num": 142,
+                    "value": "20:00"
+                }
+            ],
+            "88": [
+                {
+                    "num": 117,
+                    "value": "14:00"
+                },
+                {
+                    "num": 125,
+                    "value": "17:00"
+                },
+                {
+                    "num": 115,
+                    "value": "20:00"
+                }
+            ]
+        },
+        "lesson_index": {
+            "company_id": 1,
+            "end_hour": 14,
+            "end_min": 30,
+            "id": 4,
+            "num": 2,
+            "start_hour": 14,
+            "start_min": 5,
+            "term_id": 1
+        },
+        "term": {
+            "company_id": 1,
+            "create_time": 1546487998,
+            "end_time": 1567267200,
+            "id": 1,
+            "start_time": 1535731200,
+            "term": "上学期",
+            "term_year": "2019",
+            "update_time": 1546487998
+        }
+    },
+    "page": {}
+}

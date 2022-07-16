@@ -1,0 +1,51 @@
+{
+  "code": 0,
+  "data": {
+    "list": [
+      {
+        "company_id": 1,
+        "end_hour": 15,
+        "end_min": 3,
+        "id": 2,
+        "num": 2,
+        "start_hour": 14,
+        "start_min": 1,
+        "term_id": 1,
+        "term": {
+          "company_id": 1,
+          "create_time": 1545982724,
+          "end_time": 1546358400,
+          "id": 1,
+          "start_time": "1546272000",
+          "term": "第二学期",
+          "term_year": "第三学年"
+        }
+      },
+      {
+        "company_id": 1,
+        "end_hour": 10,
+        "end_min": 1,
+        "id": 1,
+        "num": 2,
+        "start_hour": 1,
+        "start_min": 1,
+        "term_id": 2,
+        "term": {
+          "company_id": 1,
+          "create_time": 1546402835,
+          "end_time": 1515600000,
+          "id": 1,
+          "start_time": "1514822400",
+          "term": "第四学期",
+          "term_year": "第六学年"
+        }
+      }
+    ]
+  },
+  "page": {
+    "count": 2,
+    "current": 1,
+    "size": 10,
+    "total": 1
+  }
+}

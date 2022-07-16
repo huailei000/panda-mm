@@ -1,0 +1,80 @@
+html {
+    font-size: 100px;
+}
+
+html, body, div, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+}
+
+* {
+    font-size: 0.14rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+        color: #fff;
+    }
+}
+
+button {
+    border-width: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+// 增加权重，改变z-index层级
+div.toast-container {
+    z-index: 99999;
+}
+
+.toast-container {
+    .toast-reset {
+        width: 374px!important;
+        padding-left: 0.2rem;
+        min-height: 40px;
+        background-color: #FDF6EC;
+        color: #E6A23C;
+        font-size: 14px;
+        border-radius: 4px;
+        border: 1px solid #E6A23C;
+    }
+    .toast-content-info {
+        .x-icon {
+            color: #FAAD14;
+            margin-right: 8px;
+        }
+    }
+    
+}
+.toast-reset-body {
+    .reeordown-content {
+        overflow: hidden;
+        .reeordown-left {
+            float: right;
+            .button {
+                margin-right: 10px;
+                border: 1px solid #E6A23C;
+                color: #E6A23C;
+                padding: 4px 8px;
+            }
+            .button:hover {
+                color: #FAAD14;
+                background: #FDF6EC;
+            }
+        }
+    }
+
+}

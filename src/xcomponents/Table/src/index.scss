@@ -1,0 +1,257 @@
+.xcomponent-table-wrapper {
+    box-sizing: border-box;
+    //overflow: hidden;
+    border-bottom: none;
+    &.gap {
+        table tr:nth-child(even) {
+            background-color: #F7FAFF;
+        }
+    }
+    table {
+        border-collapse: collapse;
+        border-right: 1px solid transparent;
+        thead {
+            th {
+                color: #515666;
+                font-size: .14rem;
+                padding: .1rem .16rem;
+                text-align: left;
+                line-height: .14rem;
+                font-weight: 600;
+                white-space: nowrap;
+                background-color: #F4F7FF;
+            }
+        }
+        tbody {
+            overflow-x: hidden;
+            tr:nth-child(even) {
+                background-color: rgba(203, 208, 222, 0.1);
+            }
+            tr {
+                td {
+                    &.ellipsis {
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                    font-size: .14rem;
+                    line-height: .14rem;
+                    padding: .1rem .16rem;
+                    color: #777777;
+                    a {
+                        width: .16rem;
+                        height: .16rem;
+                        &.normal {
+                            color: #4288F0;
+                        }
+                        &.delete {
+                            color: #9B9B9B;
+                        }
+                    }
+                    img {
+                        display: inline-block;
+                        width: .8rem;
+                        height: .8rem;
+                        background-color: #DFE3E9;
+                    }
+                    .fa {
+                        margin-right: .2rem;
+                        color: #7F9FFFFF;
+                    }
+                    .fa:hover {
+                        // color: #3762DE;
+                        // cursor: pointer;
+                    }
+                }
+            }
+            .table-no-data,
+            .table-loading-data {
+                text-align: center;
+                &.lg {
+                    height: 800px;
+                }
+                &.md {
+                    height: 500px;
+                }
+                &.sm {
+                    height: 180px;
+                }
+                .no-data {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    &>img {
+                        width: 1rem;
+                        height: .91rem;
+                        background-color: transparent;
+                        margin: 0 auto;
+                    }
+                    &>div {
+                        margin-top: .18rem;
+                        font-size: .14rem;
+                        color: #515666;
+                    }
+                    h1 {
+                        font-size: 20px;
+                    }
+                    .fa {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        td,
+        th {
+            margin: 0;
+        }
+        .td-c {
+            text-align: center;
+        }
+        .td-r {
+            text-align: right;
+        }
+        .td-l {
+            text-align: left;
+        }
+        .td-btngroup {
+            white-space: nowrap;
+        }
+        .order-box {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 8px;
+            .order-up {
+                width: 0;
+                height: 0;
+                border-width: 0 4px 5px 4px;
+                border-color: transparent transparent #6B7491 transparent;
+                border-style: solid;
+                margin-bottom: 2px;
+                cursor: pointer;
+                &:hover {
+                    border-color: transparent transparent #FF5A3E transparent;
+                }
+                &.selected {
+                    border-color: transparent transparent #FF5A3E transparent;
+                }
+            }
+            .order-down {
+                border-width: 5px 4px 0 4px;
+                border-color: #6B7491 transparent transparent transparent;
+                border-style: solid;
+                cursor: pointer;
+                &:hover {
+                    border-color: #7FD321 transparent transparent transparent;
+                }
+                &.selected {
+                    border-color: #7FD321 transparent transparent transparent;
+                }
+            }
+        }
+    }
+}
+
+.table-pagination {
+    font-size: 12px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .total-info {
+        margin-right: 20px;
+    }
+}
+
+.pagination-selector {
+    width: 100px;
+    height: 30px;
+}
+
+.xcomponent {
+    &-scroll-view {
+        overflow-x: auto;
+    }
+    &-table-view {
+        width: 100%;
+    }
+}
+
+.table-footer {
+    display: flex;
+    align-items: center;
+    margin-top: .2rem;
+    .page-number {
+        color: #515666;
+    }
+}
+
+
+/*
+小表格的样式
+ */
+
+.xls-table {
+    display: inline-block;
+    width: 100%;
+    .xls-table-view {
+        border: .5px solid #E3E6F0;
+        border-collapse: collapse;
+        width: 100%;
+        &.gap {
+            tr:nth-child(even) {
+                background-color: #E6EDFF;
+            }
+        }
+        thead tr {
+            background-color: #D6E2FF;
+            &:even {
+                background-color: #E6EDFF;
+            }
+        }
+        th,
+        td {
+            text-align: left;
+            font-size: .6px;
+            padding: .1rem .16rem;
+            color: #515666;
+            &.ellipsis {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+        .order-box {
+            display: inline-block;
+            vertical-align: baseline;
+            margin-left: 8px;
+            margin-top: -2px;
+            .order-up {
+                width: 0;
+                height: 0;
+                border-width: 0 4px 5px 4px;
+                border-color: transparent transparent #6B7491 transparent;
+                border-style: solid;
+                margin-bottom: 2px;
+                cursor: pointer;
+                &:hover {
+                    border-color: transparent transparent #07bc0c transparent;
+                }
+                &.selected {
+                    border-color: transparent transparent #07bc0c transparent;
+                }
+            }
+            .order-down {
+                border-width: 5px 4px 0 4px;
+                border-color: #6B7491 transparent transparent transparent;
+                border-style: solid;
+                cursor: pointer;
+                &:hover {
+                    border-color: #ff2d55 transparent transparent transparent;
+                }
+                &.selected {
+                    border-color: #ff2d55 transparent transparent transparent;
+                }
+            }
+        }
+    }
+}

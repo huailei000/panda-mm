@@ -1,0 +1,19 @@
+{
+  "code": 0,
+  "data": {
+    "avatar": "",
+    "company": {
+      "deployment": "2",
+      "id": 1,
+      "logo": "/static/images/logo.png",
+      "name": "test"
+    },
+    "company_id": 1,
+    "id": 2,
+    "organization_id": 0,
+    "password_reseted": 1,
+    "role_id": 2,
+    "username": "panda@megvii.com"
+  },
+  "page": {}
+}
